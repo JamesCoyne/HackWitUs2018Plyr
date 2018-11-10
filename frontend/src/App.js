@@ -14,7 +14,7 @@ class App extends Component {
 
   componentDidMount(){
     //let accessToken = querystring.parse(window.location.search).access_token;
-    let accessToken = querystring.parse(window.location.search).code;
+    let accessToken = querystring.parse(window.location.search).access_token;
     console.log(accessToken);
     console.log(querystring.parse(window.location.search));
     if(accessToken == null){
